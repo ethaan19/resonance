@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6b4fa1" />
+      <stop offset="100%" stop-color="#d4a574" />
+    </linearGradient>
+  </defs>
+  <!-- Background with smooth rounded corners -->
+  <rect width="32" height="32" rx="9" fill="url(#bg-grad)" />
+  <!-- Musical note in white for high contrast -->
+  <path d="M12 22V9l11-2v11" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+  <circle cx="9" cy="22" r="3" fill="#ffffff" />
+  <circle cx="20" cy="20" r="3" fill="#ffffff" />
+</svg>

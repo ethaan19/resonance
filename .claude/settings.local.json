@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create *)",
+      "Bash(npm install *)",
+      "Bash(pip install *)",
+      "Bash(python -c \"import fastapi, uvicorn, httpx, openai, dotenv; print\\('all ok'\\)\")",
+      "Bash(C:\\\\Users\\\\ethan\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python313\\\\python.exe -c \"import fastapi, uvicorn, httpx, openai, dotenv; print\\('all ok'\\)\")",
+      "PowerShell(& \"C:\\\\Users\\\\ethan\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python313\\\\python.exe\" -c \"import fastapi, uvicorn, httpx, openai, dotenv; print\\('all ok'\\)\")",
+      "Bash(npm run *)"
+    ]
+  }
+}
