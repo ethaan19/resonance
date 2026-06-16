@@ -4,6 +4,8 @@ A minimalist web app to search songs and understand their cultural context using
 
 ![Stack](https://img.shields.io/badge/React_18-Vite-blue) ![Stack](https://img.shields.io/badge/FastAPI-Python_3.13-green) ![Stack](https://img.shields.io/badge/Azure_OpenAI-GPT--4o--mini-orange)
 
+[Leer en español 🇪🇸](documentation/README.md)
+
 ---
 
 ## What it does
