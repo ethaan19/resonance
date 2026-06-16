@@ -8,6 +8,10 @@ Una aplicación web minimalista para buscar canciones y entender su contexto cul
 
 ---
 
+### **APP:** https://resonance-eta-one.vercel.app/
+
+---
+
 ## Qué hace
 
 1. **Búsqueda** — Introduce el título de una canción y/o el artista. Obtiene resultados de la API de Genius con la portada del álbum, el título y el artista.
