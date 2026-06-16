@@ -52,7 +52,7 @@ export default function App() {
     <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
 
       {/* ── Header ───────────────────────────── */}
-      <header style={{
+      <header className="app-header" style={{
         position: 'sticky', top: 0, zIndex: 50,
         borderBottom: '1px solid rgba(58,58,74,0.3)',
         padding: '18px 40px',
@@ -82,7 +82,7 @@ export default function App() {
         </button>
 
         {hasSearched && (
-          <div style={{ maxWidth: 480, flex: 1, margin: '0 32px' }}>
+          <div className="header-search" style={{ maxWidth: 480, flex: 1, margin: '0 32px' }}>
             <SearchBar
               onSearch={handleSearch} loading={loading} compact
               song={song} setSong={setSong} artist={artist} setArtist={setArtist}

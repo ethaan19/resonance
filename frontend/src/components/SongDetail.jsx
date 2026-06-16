@@ -17,14 +17,7 @@ export default function SongDetail({ song, onBack }) {
   const [showAnalysis, setShowAnalysis] = useState(false)
   const [analysisLanguage, setAnalysisLanguage] = useState('es')
 
-  useEffect(() => {
-    if (!showAnalysis) {
-      document.body.style.overflow = 'hidden'
-    } else {
-      document.body.style.overflow = 'auto'
-    }
-    return () => { document.body.style.overflow = 'auto' }
-  }, [showAnalysis])
+
 
   return (
     <div className="animate-fade-in" style={{ paddingTop: '0px' }}>
@@ -62,7 +55,7 @@ export default function SongDetail({ song, onBack }) {
         {/* ── Left column: art + meta ── */}
         <div className="anim-0">
           {/* Album art */}
-          <div style={{
+          <div className="album-art-container" style={{
             position: 'relative',
             borderRadius: 'clamp(12px, 3vw, 18px)',
             overflow: 'hidden',
