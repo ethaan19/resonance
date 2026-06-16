@@ -1,10 +1,10 @@
+**[Read in English 🇬🇧](../README.md)**
+
 # 🎵 Resonance
 
 Una aplicación web minimalista para buscar canciones y entender su contexto cultural mediante IA.
 
 ![Stack](https://img.shields.io/badge/React_18-Vite-blue) ![Stack](https://img.shields.io/badge/FastAPI-Python_3.13-green) ![Stack](https://img.shields.io/badge/Azure_OpenAI-GPT--4o--mini-orange)
-
-[Read in English 🇬🇧](../README.md)
 
 ---
 
