@@ -6,6 +6,10 @@ A minimalist web app to search songs and understand their cultural context using
 
 ---
 
+## **APP:** https://resonance-eta-one.vercel.app/
+
+---
+
 ## What it does
 
 1. **Search** — Enter a song title and/or artist. Pulls results from the Genius API with album art, title, and artist.
