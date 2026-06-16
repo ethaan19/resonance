@@ -6,7 +6,7 @@ A minimalist web app to search songs and understand their cultural context using
 
 ---
 
-## **APP:** https://resonance-eta-one.vercel.app/
+### **APP:** https://resonance-eta-one.vercel.app/
 
 ---
 
